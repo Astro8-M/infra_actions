@@ -44,7 +44,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/infra_actions:latest
+          tags: astro8m/infra_actions:latest
 
   deploy:
     runs-on: ubuntu-latest
